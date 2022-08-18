@@ -1,0 +1,83 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Noto Sans KR", sans-serif;
+    color: #333;
+  }
+
+  /*스크롤이동시 부드럽게 이동*/
+html{
+  scroll-behavior: smooth;
+}
+
+
+
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+  ul {
+    list-style: none;
+    text-align: center;
+  }
+  button {
+    border-style: none;
+    background-color: inherit;
+  }
+  table {
+    border-collapse: collapse;
+    border-spacing: 0;
+  }
+
+  body {
+      font-size: 100%;
+      font-family: 'Noto Sans KR', '맑은 고딕', sans-serif;
+  }
+  :root {
+    --main-color1: #333;
+    --main-color2: #fff;
+    --sub-color1: #666;
+    --sub-color2: #999;
+    --sub-color3: #ccc;
+    --sub-color4: #eee;
+    --regular: 400;
+    --medium: 500;
+    --bold: 700;
+  }
+
+
+
+  /* max-width 설정 */
+body{
+  max-width: 500px;
+  min-width: 320px;
+  margin: 0 auto;
+  background: #fff;
+}
+header{
+  max-width: 500px;
+  min-width: 320px;
+  margin: 0 auto;
+}
+.movie{
+  max-width: 500px;
+  min-width: 320px;
+  margin: 0 auto;
+}
+#gnb{
+  max-width: 500px;
+  min-width: 320px;
+  margin: 0 auto;
+}
+video{
+  max-width: 500px;
+  min-width: 320px;
+  margin: 0 auto;
+}
+#wrap{
+  position: relative;
+  width: inherit;
+  height: inherit;
+  overflow: hidden;
+}

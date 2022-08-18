@@ -1,0 +1,39 @@
+.maps-wrap {
+    width: 500px;
+}
+
+#maps h1 {
+    margin-bottom: 30px;
+    text-align: center;
+}
+#maps h2 {
+    margin-bottom: 5px;
+}
+
+#maps  article .map {
+    margin-bottom: 16px;
+}
+#maps .map-title {
+    padding-left: 30px;
+    margin-bottom: 20px;
+}
+#maps article .map-info {
+    list-style-type: circle;
+    text-align: left;
+}
+#gimpo {
+    margin-bottom: 20px;
+}
+#jamsil {
+    margin-bottom: 60px;
+}
+#maps hr {
+    width: 150px;
+    margin: 0 auto; 
+    margin-bottom: 40px;
+}
+.maps-copyright {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
